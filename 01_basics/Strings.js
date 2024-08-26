@@ -26,3 +26,27 @@
 // const newEmailId = emailId.substring(0, 16);
 // console.log(newEmailId);
 
+// const word = "My ";
+// const word2 = "Name "
+// const word3 = "Is "
+// const word4 = "Piyush"
+
+// const sentence = word.concat(word2, word3, word4);
+// console.log(sentence);
+
+// const para = "I think happy is sad";
+// const paraReplace = para.replace('happy', 'my dog');
+// console.log(paraReplace);
+
+// const slice = "I think slice method is copy pasting strings";
+// const sliceMethod = slice.slice(7, 20);
+// console.log(sliceMethod);
+// console.log(slice);
+// console.log(slice.length);
+
+// const charAt = "my string is lengthy";
+// console.log(charAt.charAt(1));
+
+const para = "There is two apples, apple One and apple Two";
+const searchTerm = "apple"
+console.log(para.indexOf(searchTerm));
