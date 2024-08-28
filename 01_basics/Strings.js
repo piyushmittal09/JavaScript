@@ -50,3 +50,54 @@ console.log(charAt.charAt(1));
 const para2 = "There is two apples, apple One and apple Two";
 const searchTerm = "apple"
 console.log(para2.indexOf(searchTerm));
+
+
+
+// String Methods in ES6 //
+
+
+//Length
+
+const string = "Hello"
+console.log(string.length);
+
+// To UpperCase
+
+const string2 = "hello";
+console.log(string2.toUpperCase());
+
+// To Lowercase
+
+const string3 = new String("HELLO");
+console.log(string3.toLowerCase());
+
+// CharAt(Index) //
+
+const str4 = "Hello";
+console.log(str4.charAt(1));  // index starts with 0 //
+
+// IndexOf (substring)
+
+const str5 = "Hello World";
+console.log(str5.indexOf("World"));
+
+// slice (start, end) //
+
+const str6 = "Hello World";
+console.log(str6.slice(0, 5)); //extracts the part of existing string and make a new one. //
+
+// substring 
+
+const str7 = "Hello World";
+console.log(str7.substring(6, 12)); // similar to slice but does not accept negative values
+
+// replace 
+
+const str8 = "Hello World";
+console.log(str8.replace('World', 'Piyush'));
+
+// Trim
+
+const str9 = "     Hello World     ";
+console.log(str9);
+console.log(str9.trim())  // removes extra spaces
