@@ -15,3 +15,6 @@ console.log(someNumber.toPrecision(3));
 
 const hundreds = 10000000
 console.log(hundreds.toLocaleString('en-IN'));
+
+
+// Number Methods //
