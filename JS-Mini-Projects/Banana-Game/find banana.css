@@ -1,0 +1,42 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: darkgreen;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+h1{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 90px;
+	font-weight: bold;
+	color: goldenrod;
+	
+	
+}
+button{
+	background-color: goldenrod;
+	color: black;
+	display: block;
+	width: 300px;
+	height: 55px;
+	border: none;
+	border-radius: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+	margin: auto;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+.btn1{
+	margin-top: 130px;
+	margin-bottom: 25px;
+}

@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --primary-color: #ffffff;
+  --secondary-color: #F5F5F5;
+  --tertiary-color: #FAF9F6;
+  --dark-primary-color: #000000;
+  --dark-secondary-color: #222222;
+  --dark-tertiary-color: #444444;
+}
+
+body, html{
+  width: 100%;
+  height: 100%;
+  background-color: var(--dark-primary-color);
+}
+
+.container{
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 100px 100px 50px 100px;
+  margin-top: 100px;
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 0;
+}
+
+.toggle{
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  width: 60px;
+  height: 30px;
+  border-radius: 25px;
+  background-color: var(--secondary-color);
+  border: none;
+}
+
+.toggle button{
+  position: relative;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: var(--dark-primary-color);
+  border: none;
+  top: 2px;
+  left: 3px;
+}
+
+
+.card{
+ width: 250px;
+ height: 300px;
+ border-radius: 30px;
+ margin: 0 auto;
+ background-color: var(--secondary-color);
+ padding: 10px;
+ margin: 0px 20px;
+}
+
+
+.two{
+  width: 300px;
+ height: 400px;
+ position: relative;
+ top: -30px;
+}
+
+.four{
+  height: 250px;
+  position: relative;
+  top: -90px;
+}
+
+.five{
+  width: 300px;
+  height: 250px;
+  position: relative;
+  top: -30px;
+}
+
+.six{
+  height: 200px;
+  position: relative;
+  top: -130px;
+}

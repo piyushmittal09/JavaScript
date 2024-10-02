@@ -1,0 +1,90 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	background-image: url('background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	overflow: hidden;
+}
+.view{
+	font-weight: bold;
+	margin: auto auto;
+	display: block;
+}
+h1{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 70px;
+	color: darkgreen;
+}
+h2{
+	font-size: 60px;
+	margin-bottom: 25px;
+	color: darkgreen;
+}
+button{
+	
+	width: 150px;
+	height: 55px;
+	margin: auto;
+}
+.btn1{
+	background-color: green;
+	color: white;
+	font-size: 20px;
+	margin: 70px 25px 0 0;
+	border: none;
+}
+.btn2{
+	background-color: green;
+	color: white;
+	font-size: 20px;
+	margin-right: 25px;
+	border: none;
+}
+.btn3{
+	background-color: green;
+	color: white;
+	font-size: 20px;
+	margin-right: 25px;
+	border: none;
+}
+.btn4{
+	background-color: green;
+	color: white;
+	font-size: 20px;
+	border: none;
+}
+
+.bananas{
+	display: flex;
+	justify-content: space-evenly;
+	mix-blend-mode: color-burn;
+    /* filter: drop-shadow(2px 4px 6px black); */
+}
+.bananas2{
+	display: flex;
+	justify-content: space-evenly;
+	mix-blend-mode: color-burn;
+    /* filter: drop-shadow(2px 4px 6px black); */
+}
+.message-el{
+	color: red;
+	font-weight: bold;
+	font-size: 40px;
+	position: absolute;
+	left: 390px;
+}
+
+.banana{
+	width: 80px;
+	position: relative;
+}
