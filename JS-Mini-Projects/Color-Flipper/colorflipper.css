@@ -1,0 +1,44 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+	width: 100%;
+	height: 200px;
+	background-color: whitesmoke;
+	display: inline-block;
+	box-shadow: -8px -4px 0px darkslateblue;
+	
+	
+}
+
+body{
+
+	background-color: #7880a3;
+}
+
+.container h2{
+	
+	text-align: center;
+	margin-top: 30px;
+	
+}
+
+.btn{
+	margin: 50px 45%;
+	text-align: center;
+	border: none;
+	width: 100px;
+	height: 40px;
+	padding: 10px 10px;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+
+}
