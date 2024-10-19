@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+
+}
+
+.container{
+  margin: 100px 0 0 0;
+}
+
+.input{
+  width: 250px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+
+.Add{
+  height: 40px;
+  padding: 0px 20px;
+  background-color: green;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.Delete{
+  height: 40px;
+  padding: 0px 20px;
+  background-color: red;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.list{
+  width: 400px;
+  height: 300px;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 50px;
+  list-style: none;
+  font-size: 18px;
+  color: black;
+  padding: 20px;
+  overflow: hidden;
+}
