@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.startBtn{
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-right: 20px;
+}
+
+.stopBtn{
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-right: 20px;
+}
+
+.random-color-code{
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
